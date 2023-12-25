@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+/*background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+  background-color: black;
+  overflow: hiden;
+  height: 100vh;
+}
+
+/*#05F2F2 azul*/
+
+header{
+ max-height: 100%;
+ 
+}
+
+#cinza{
+  height: 580px;
+  width: 100%;
+  background-color: #3D3E43;
+}
+
+#white{
+  height: 600px;
+  width: 100vw;
+  background-color: #EBEBEB;
+  transform: translate(550px,-600px)
+}
+
+#circle{
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  background-color: #3D3E43;
+  transform: translate(-185px,110px)
+}
+
+#ft{
+  width: 279.9px;
+  border-radius: 50%;
+}
+
+#circle1{
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  background-color: #EBEBEB;
+  transform: translate(20px,23px)
+}
+
+#circle2{
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background-color: #3D3E43;
+  transform: translate(20px,23px)
+}
+
+#titulo{
+  color: #3D3E43;
+  transform: translate(950px,-950px);
+  width: 350px;
+
+}
+
+#titulo h1,h2{
+  text-align: center;
+}
+
+section{
+  color: white;
+  font-size: 30px;
+  margin-top: 90px;
+  padding-left: 45px;
+}
+
+.bola{
+ background-color: deeppink;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+}
+
+.linha{
+  background: deeppink;
+  height: 70px;
+  width: 3px;
+  margin-left: 23px;
+}
+
+#habilidades{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#estudando{
+  display: grid;
+  width: 400px;
+  transform: translate(500px,-462px)
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.mud{
+  transform: translate(0px , -750px);
+  height: 1px;
+  width: 1px;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  width: 10px;
+  height: 10px;
+  transform: translate(1100px , -180.3px)
+}
+
+button img{
+  max-width: 23px;
+  transform: translate(-11.5px , -11.5px)
+}
+
+.github-button{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  width: 10px;
+  height: 10px;
+  transform: translate(1140px , -181px)
+}
+
