@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 980px){
 
 /*background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);*/
 
@@ -7,73 +8,33 @@
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 100vw;
 }
 
-body,html{
-  background-color: black;
-  overflow: hiden;
+header{
+  text-align: center;
+  background-image: linear-gradient(to left, red 65%, #3D3E43 50%);
   height: 100vh;
 }
 
-/*#05F2F2 azul*/
-
-header{
- max-height: 100%;
- 
+header  img{
+  width: 300px;
+  border-radius: 50%;
 }
 
 #cinza{
-  height: 580px;
-  width: 100%;
+  width: 150px;
+  height: 150px;
   background-color: #3D3E43;
+  border-radius: 50%;
+  transform: translate(475px ,350px);
 }
-
+/*#EBEBEB*/
 #white{
-  height: 600px;
-  width: 100vw;
-  background-color: #EBEBEB;
-  transform: translate(550px,-600px)
+  
 }
 
-#circle{
-  height: 370px;
-  width: 370px;
-  border-radius: 50%;
-  background-color: #3D3E43;
-  transform: translate(-185px,110px)
-}
-
-#ft{
-  width: 279.9px;
-  border-radius: 50%;
-}
-
-#circle1{
-  height: 320px;
-  width: 320px;
-  border-radius: 50%;
-  background-color: #EBEBEB;
-  transform: translate(20px,23px)
-}
-
-#circle2{
-  height: 280px;
-  width: 280px;
-  border-radius: 50%;
-  background-color: #3D3E43;
-  transform: translate(20px,23px)
-}
-
-#titulo{
-  color: #3D3E43;
-  transform: translate(950px,-950px);
-  width: 350px;
-
-}
-
-#titulo h1,h2{
-  text-align: center;
-}
 
 section{
   color: white;
@@ -98,7 +59,7 @@ section{
 
 #habilidades{
   display: flex;
-  flex-direction: column;
+  flex-direction: colmn;
   width: 400px;
 }
 
@@ -108,7 +69,7 @@ section{
   transform: translate(500px,-462px)
 }
 
-button a{
+/*button a{
   text-decoration: none;
   color: white;
   
@@ -155,5 +116,5 @@ button img{
   width: 10px;
   height: 10px;
   transform: translate(1140px , -181px)
+}*/
 }
-
