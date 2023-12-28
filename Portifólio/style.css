@@ -38,17 +38,20 @@ header h1{
   width: 411.5px;
   margin: auto;
   transform: translate(200px , -80px);
+  color: #3D3E43;
 }
 
 
 .h1{
-  width: 411.5px;
-  width: 25ch;
+  width: 440px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(25),bliking 1s infinite step-end ;
-  border-right: 2x solid;
-  width: calc(100%-20px);
+  animation: typing 4s steps(25), typing2 4s steps(25) alternate-reverse infinite, blinking .9s infinite;
+  border-right: 2px black solid;
+}
+
+.h1::before{
+  width: calc(100%-10px);
 }
 
 @keyframes typing{
@@ -56,7 +59,16 @@ header h1{
     width: 0;
   }
   to{
-    width: 25ch;
+    width: 0ch;
+  }
+}
+
+@keyframes typing2{
+  from{
+    width: 23ch;
+  }
+  to{
+    width: 0px;
   }
 }
 
