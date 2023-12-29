@@ -109,6 +109,16 @@ header h1{
   transform: translate(-240px , -250.5px);
 }
 
+nav{
+  color: red;
+  display: flex;
+  justify-content: end;
+  
+}
+nav a{
+  background-color: red;
+}
+
 
 section{
   color: white;
@@ -161,7 +171,7 @@ button a{
   color: #fff;
   width: 13px;
   height: 13px;
-  transform: translate(390px, 180px);
+  transform: translate(390.5px, 180px);
   
 }
 
@@ -184,7 +194,7 @@ button a{
   color: red;
   width: 13px;
   height: 13px;
-  transform: translate(465px, 113px)
+  transform: translate(465.5px, 113px)
 }
 
 .but img{
