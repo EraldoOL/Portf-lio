@@ -153,56 +153,6 @@ section{
   transform: translate(500px,-462px)
 }
 
-button a{
-  text-decoration: none;
-  
-}
-
-.instagram-button {
-  display: inline-block;
-  padding: 10px 10px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  width: 13px;
-  height: 13px;
-  transform: translate(390.5px, 180px);
-  
-}
-
-.mud img{
-  border: 5px solid black;
-  padding: 6px;
-  border-radius: 40%;
-}
-
-.github-button{
-  display: inline-block;
-  padding: 10px 10px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
-  color: red;
-  width: 13px;
-  height: 13px;
-  transform: translate(465.5px, 113px)
-}
-
-.but img{
-  width: 53px;
-  border: 5px solid black;
-  padding: 6px;
-  border-radius: 40%;
-}
 
 
 }
