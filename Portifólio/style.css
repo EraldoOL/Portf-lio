@@ -16,6 +16,7 @@ body,html{
   width: 100vw;
   height: 100vh;
   min-height: 540px;
+  background-image: linear-gradient(to left, #EBEBEB 65%, #3D3E43 50%);
 }
 
 header{
@@ -136,49 +137,83 @@ header h1{
   transform: translate(-240px , -250.5px);
 }
 
-nav{
-  color: red;
+ #section{
+  font-size: 30px;
+  padding-left: 45px;
+  padding-top: 100px;
   display: flex;
-  justify-content: end;
+  justify-content: space-evenly;
   
 }
-nav a{
-  background-color: red;
+
+section h1{
+  color: #EBEBEB;
+  white-space: nowrap;
 }
 
+#P{
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid grey;
+  padding: 30px;
+  box-shadow: 0px 2px 10px 5px grey;
+  font-weight: 400;
+  background-color: #303440;
+  color:white;
+  width: 600px;
+}
 
-section{
-  color: white;
+#Skill{
+  color: deepskyblue;
+}
+
+#section1{
   font-size: 30px;
-  margin-top: 90px;
   padding-left: 45px;
-}
-
-.bola{
- background-color: deeppink;
- border-radius: 50%;
- width: 50px;
- height: 50px;
-}
-
-.linha{
-  background: deeppink;
-  height: 70px;
-  width: 3px;
-  margin-left: 23px;
-}
-
-#habilidades{
+  padding-top: 100px;
   display: flex;
-  flex-direction: colmn;
-  width: 400px;
+  justify-content: space-evenly;
 }
 
-#estudando{
-  display: grid;
-  width: 400px;
-  transform: translate(500px,-462px)
+#Projetos{
+  color: white;
+  white-space: nowrap;
 }
+
+#galeria div{
+  display: flex;
+  width: 850px;
+  height: 550px;
+  transform: translate(127px , 0px);
+}
+
+#Bgaleria{
+  border: 20px solid #303440;
+  width: 830px;
+  height: 580px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#galeria div img{
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s;
+  border-radius: 10px;
+  
+}
+
+#galeria img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+  
+}
+
+
 
 button a{
   text-decoration: none;
@@ -218,7 +253,7 @@ button a{
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  color: red;
+  color: #fff;
   width: 13px;
   height: 13px;
   transform: translate(440.5px, 113px)
@@ -246,6 +281,5 @@ button a{
   height: 13px;
   transform: translate(510px, 45px)
 }*/
-
 
 }
