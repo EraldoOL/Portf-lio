@@ -39,7 +39,7 @@ header h1{
   width: 412px;
   margin: auto;
   transform: translate(200px , -80px);
-  color: #3D3E43;
+  color: #100D1E;
   position: relative;
   white-space: nowrap;
 }
@@ -47,7 +47,7 @@ header h1{
 .h1{
   position: relative;
   color: #fff;
-  white-space: nowap;
+  white-space: nowrap;
 }
 
 .h1::before{
