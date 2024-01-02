@@ -46,6 +46,7 @@ header h1{
 .h1{
   position: relative;
   color: #fff;
+  white-space: nowrap;
 }
 
 .h1::before{
