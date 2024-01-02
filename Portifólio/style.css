@@ -36,11 +36,12 @@ header  #img{
 }
 
 header h1{
-  width: 411.5px;
+  width: 412px;
   margin: auto;
   transform: translate(200px , -80px);
   color: #3D3E43;
   position: relative;
+  white-space: nowrap;
 }
 
 .h1{
