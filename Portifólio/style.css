@@ -151,6 +151,8 @@ header h1{
 section h1{
   color: #EBEBEB;
   white-space: nowrap;
+  border-bottom: 5px solid deepskyblue;
+  height: 50px;
 }
 
 #P{
@@ -163,63 +165,160 @@ section h1{
   background-color: #100D1E;
   color:white;
   width: 600px;
+  margin-top: 90px;
 }
 
 #Skill{
   color: deepskyblue;
 }
 
-#section1{
-  font-size: 30px;
-  padding-left: 45px;
-  padding-top: 100px;
-  display: flex;
-  justify-content: space-evenly;
+
+
+                /*Galeria*/
+
+
+
+#Tgaleria{
+  color: #EBEBEB;
+  margin-top: 90px;
+  padding-top: 30px;
+  font-size: 25px;
 }
 
-#Projetos{
+#h1galeria{
+  margin-bottom: 80px;
+  margin-left: 65px;
+  border-bottom: 5px solid deepskyblue;
+  width: 190px;
+}
+
+#h1galeria2{
+  margin-left: 50px;
+}
+
+#area{
+  background: black;
+  width: 100vw;
+  padding: 15px 15px;
+}
+
+.conteudo{
+  width: 600px;
+  margin: auto;
+}
+
+.carrosel{
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carrosel::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  scroll-snap-align: start;
+  border-radius: 30px;
+  min-height: 290px;
+  min-width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+#card1 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+}
+
+#card2 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+}
+
+#card3 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+}
+
+#card4 img{
+  border-radius: 30px;
+  width: 430px;
+  padding: 30px;
+}
+
+.card:hover{
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: .5s;
+}
+
+.carrosel:hover > :not(:hover){
+  opacity: .4;
+  transform: scale(.8);
+}
+
+.card:nth-child(odd){
+  background: linear-gradient(-229deg, white, grey);
+}
+
+.card:nth-child(even) {
+  background: linear-gradient(-229deg, grey, white);
+}
+
+#area p{
   color: white;
-  white-space: nowrap;
+  width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 23px;
 }
 
-#galeria div{
+#meusite h1{
+  color: deepskyblue;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#site{
   display: flex;
-  width: 850px;
-  height: 550px;
-  transform: translate(127px , 0px);
+  justify-content: center;
+}
+#site img{
+  width: 600px;
 }
 
-#Bgaleria{
-  border: 20px solid #303440;
-  width: 830px;
-  height: 580px;
-  background-color: white;
-  border-radius: 20px;
+#meusite a{
+  text-decoration: none;
 }
 
-#galeria div img{
-  width: 0;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: .8;
-  transition: .5s;
-  border-radius: 10px;
-  
+.ani{
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1.1s;
+  transform: translateX(-100%);
+  min-width: 100%vw;
 }
 
-#galeria img:hover{
-  cursor: crosshair;
-  width: 300px;
+.show{
   opacity: 1;
-  filter: contrast(120%);
-  
+  filter: blur(0);
+  transition: all .8s;
+  transform: translateX(0);
 }
-
-
 
 button a{
   text-decoration: none;
-  
 }
 
 .instagram-button {
