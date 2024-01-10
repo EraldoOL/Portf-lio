@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+@media (min-width: 300px) and (max-width: 979px){
+  *{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+}
+  
+   body,html{
+     background-image: linear-gradient(to top, #EBEBEB 85%, #100D1E 60%);
+   }
+   
+   img{
+     width: 100px;
+   }
+   
+   header{
+     width: 100vw;
+   }
+   
+   #ola{
+     text-align: center;
+   }
+   
+   header h1{
+      width: 350px;
+      transform: translate(17px , 300px);
+      color: #100D1E;
+      position: relative;
+      white-space: nowrap;
+      font-size: 25px;
+   }
+   
+   .h1{
+  position: relative;
+  color: #fff;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.h1::before{
+  content: attr(data-text);
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  height: 100%;
+  font-size: 25px;
+  white-space: nowrap;
+  color: #100D1E;
+  animation: animar 5s linear infinite
+}
+
+@keyframes animar{
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 100%;
+  }
+}
+   
+   
+   header img{
+     width: 10px;
+   }
+   #img{
+     display: none;
+   }
+   
+   
+   
+   #cinza{
+    width: 190px;
+    height: 190px;
+    background-color: #EBEBEB;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-10px , 250px);
+   }
+   
+   #cinza1{
+    width: 140px;
+    height: 140px;
+    background-color: #100D1E;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-10px , -130px);
+    background-image: url('mft.jpg');
+    background-size: cover;
+   }
+   
+   #traco{
+     width: 20px;
+     height: 1px;
+     background-color: #100D1E;
+     
+   }
+   
+   #white{
+    width: 150px;
+    height: 150px;
+    background-color: #100D1E;
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-10px , 15px);
+   }
+   
+   #section h1{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 50px;
+     text-decoration: underline;
+     font-weight: 700;
+     margin-top: 260px;
+   }
+   
+   #P{
+     width: 355px;
+     margin: auto;
+     background-color: #100D1E;
+     color: white;
+     padding: 20px 20px;
+     border-radius: 20px;
+     font-weight: 500;
+   }
+   
+   #Skill{
+     color: deepskyblue;
+   }
+   
+   #Tgaleria h1{
+     display: flex;
+     justify-content: center;
+     margin-top: 80px;
+     font-weight: 700;
+     
+   }
+   
+   #h1galeria{
+     font-size: 40px;
+     text-decoration: underline;
+     
+   }
+   
+   #h1galeria2{
+     background-color: black;
+     color: deepskyblue;
+     padding-bottom: 50px;
+     padding-top: 20px;
+   }
+   
+   
+    #area{
+      background: black;
+      width: 100vw;
+      padding: 15px 15px;
+    }
+    
+    .conteudo{
+      width: 370px;
+      margin: auto;
+    }
+    
+    .carrosel{
+      display: grid;
+      grid-auto-flow: column;
+      scroll-behavior: auto;
+      gap: 1.2rem;
+      overflow-y: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    
+    .carrosel::-webkit-scrollbar{
+      display: none;
+    }
+    
+    .card{
+      scroll-snap-align: start;
+      border-radius: 30px;
+      min-height: 200px;
+      min-width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30px;
+    }
+    
+    #card1 img{
+      border-radius: 30px;
+      width: 320px;
+      padding: 20px;
+    }
+    
+    #card2 img{
+      border-radius: 30px;
+      width: 320px;
+      padding: 20px;
+    }
+    
+    #card3 img{
+      border-radius: 30px;
+      width: 320px;
+      padding: 20px;
+    }
+    
+    #card4 img{
+      border-radius: 30px;
+      width: 360px;
+      padding: 50px;
+    }
+    
+    .card:hover{
+      -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+       transition: .5s;
+    }
+    
+    .carrosel:hover > :not(:hover){
+      opacity: .4;
+      transform: scale(.8);
+    }
+    
+    .card:nth-child(odd){
+      background: linear-gradient(-229deg, white, grey);
+    }
+    
+    .card:nth-child(even) {
+      background: linear-gradient(-229deg, grey, white);
+    }
+    
+    #area p{
+      margin: auto;
+      color: deepskyblue;
+      width: 300px;
+      padding-top: 60px;
+      font-weight: 500;
+    }
+    
+    
+    #meusite h1{
+      color: deepskyblue;
+      text-align: center;
+      margin-top: 120px;
+      font-size: 30px;
+      margin-bottom: 100px;
+    }
+    
+    #site{
+      display: flex;
+      justify-content: center;
+    
+    }
+    
+    #site p{
+      color: white;
+    }
+    #site img{
+      width: 200px;
+    }
+    
+    #meusite a{
+      color: deeppink;
+    }
+       
+       button a{
+      text-decoration: none;
+    }
+    
+    .instagram-button {
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      color: #EBEBEB;
+      width: 5px;
+      height: 5px;
+      transform: translate(70px, 174px);
+      
+    }
+    
+    .mud img{
+      width: 30px;
+      border: 2px solid black;
+      padding: 6px;
+      border-radius: 40%;
+    }
+    
+    .github-button{
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      color: #EBEBEB;
+      width: 13px;
+      height: 13px;
+      transform: translate(36px, 130px)
+    }
+    
+    .but img{
+      width: 30px;
+      border: 2px solid black;
+      padding: 6px;
+      border-radius: 40%;
+    }
+    
+    .ani{
+      opacity: 0;
+      filter: blur(15px);
+      transition: all 1.5s;
+      transform: translateX(-100%);
+      min-width: 100%vw;
+    }
+    
+    .show{
+      opacity: 1;
+      filter: blur(0);
+      transition: all 1.5s;
+      transform: translateX(0);
+    }
+  }
