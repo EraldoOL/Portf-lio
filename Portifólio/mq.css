@@ -108,13 +108,15 @@
     transform: translate(-10px , 15px);
    }
    
+   
    #section h1{
      display: flex;
      justify-content: center;
      margin-bottom: 50px;
      text-decoration: underline;
      font-weight: 700;
-     margin-top: 260px;
+     margin-top: 180px;
+     text-shadow: .8px .8px .8px black;
    }
    
    #P{
@@ -125,6 +127,22 @@
      padding: 20px 20px;
      border-radius: 20px;
      font-weight: 500;
+     box-shadow: 2px 2px 3px black;
+   }
+   
+   #section ul{
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     max-height: 150px;
+     margin-top: 15px;
+   }
+   
+   #section ul img{
+     width: 35px;
    }
    
    #Skill{
@@ -136,13 +154,12 @@
      justify-content: center;
      margin-top: 80px;
      font-weight: 700;
-     
    }
    
    #h1galeria{
      font-size: 40px;
      text-decoration: underline;
-     
+     text-shadow: .7px .7px .7px black;
    }
    
    #h1galeria2{
@@ -160,8 +177,13 @@
     }
     
     .conteudo{
-      width: 370px;
+      width: 375px;
       margin: auto;
+      background-color: #100D1E;
+      border: 1px solid #FFFFFF;
+      padding: 10px 10px;
+      border-radius: 30px;
+      box-shadow: 1px 1px 1px #ffffff;
     }
     
     .carrosel{
@@ -210,7 +232,7 @@
     
     #card4 img{
       border-radius: 30px;
-      width: 320px;
+      width: 380px;
       padding: 50px;
     }
     
@@ -237,8 +259,13 @@
       margin: auto;
       color: deepskyblue;
       width: 300px;
-      padding-top: 60px;
+      margin-top: 20px;
+      padding: 5px 5px;
       font-weight: 500;
+      border-left: .5px solid white;
+      border-right: .5px solid white;
+      text-align: center;
+      border-radius: 15px;
     }
     
     
@@ -248,6 +275,9 @@
       margin-top: 120px;
       font-size: 30px;
       margin-bottom: 100px;
+      border-left: .5px solid white;
+      border-right: .5px solid white;
+      border-radius: 10px;
     }
     
     #site{
@@ -285,6 +315,7 @@
       width: 5px;
       height: 5px;
       transform: translate(70px, 174px);
+      background-color: #EBEBEB;
       
     }
     
@@ -308,7 +339,8 @@
       color: #EBEBEB;
       width: 13px;
       height: 13px;
-      transform: translate(36px, 130px)
+      transform: translate(36px, 130px);
+      background-color: #EBEBEB;
     }
     
     .but img{
