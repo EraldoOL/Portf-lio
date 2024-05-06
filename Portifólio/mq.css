@@ -23,6 +23,7 @@
    
    #ola{
      text-align: center;
+     font-size: 20px;
    }
    
    header h1{
@@ -31,14 +32,18 @@
       color: #100D1E;
       position: relative;
       white-space: nowrap;
-      font-size: 25px;
+      font-size: 20px;
+      text-align: center;
    }
    
    .h1{
   position: relative;
   color: #fff;
   white-space: nowrap;
-  padding-left: 20px;
+  margin-left: 50px;
+  
+  width: 257px;
+  
 }
 
 .h1::before{
@@ -47,7 +52,7 @@
   width: 0%;
   overflow: hidden;
   height: 100%;
-  font-size: 25px;
+  font-size: 20px;
   white-space: nowrap;
   color: #100D1E;
   animation: animar 5s linear infinite
@@ -78,7 +83,7 @@
     background-color: #EBEBEB;
     border-radius: 50%;
     margin: auto;
-    transform: translate(-10px , 250px);
+    transform: translate(-2px , 250px);
    }
    
    #cinza1{
@@ -87,7 +92,7 @@
     background-color: #100D1E;
     border-radius: 50%;
     margin: auto;
-    transform: translate(-10px , -130px);
+    transform: translate(-2px , -115px);
     background-image: url('mft.jpg');
     background-size: cover;
    }
@@ -105,7 +110,7 @@
     background-color: #100D1E;
     border-radius: 50%;
     margin: auto;
-    transform: translate(-10px , 15px);
+    transform: translate(-2px , 30px);
    }
    
    
@@ -114,9 +119,9 @@
      justify-content: center;
      margin-bottom: 50px;
      text-decoration: underline;
-     font-weight: 700;
+     font-weight: 500;
      margin-top: 180px;
-     text-shadow: .8px .8px .8px black;
+     text-shadow: .5px .5px .5px black;
    }
    
    #P{
@@ -127,7 +132,7 @@
      padding: 20px 20px;
      border-radius: 20px;
      font-weight: 500;
-     box-shadow: 2px 2px 3px black;
+     box-shadow: 1px 1px 1.5px black;
    }
    
    #section ul{
@@ -142,7 +147,17 @@
    }
    
    #section ul img{
+     width: 23px;
+   }
+   
+   #section ul .big{
+     width: 30px;
+   }
+   #section ul .big1{
      width: 35px;
+   }
+   #section ul .big2{
+     width: 27px;
    }
    
    #Skill{
@@ -153,7 +168,8 @@
      display: flex;
      justify-content: center;
      margin-top: 80px;
-     font-weight: 700;
+     font-weight: 500;
+     font-size: 25px
    }
    
    #h1galeria{
@@ -164,9 +180,11 @@
    
    #h1galeria2{
      background-color: black;
-     color: deepskyblue;
+     color: white;
      padding-bottom: 50px;
      padding-top: 20px;
+     text-decoration: underline;
+     font-weight: 500;
    }
    
    
@@ -314,7 +332,7 @@
       color: #EBEBEB;
       width: 5px;
       height: 5px;
-      transform: translate(70px, 174px);
+      transform: translate(90px, 164px);
       background-color: #EBEBEB;
       
     }
@@ -339,7 +357,7 @@
       color: #EBEBEB;
       width: 13px;
       height: 13px;
-      transform: translate(36px, 130px);
+      transform: translate(50px, 120px);
       background-color: #EBEBEB;
     }
     
@@ -348,6 +366,24 @@
       border: 2px solid black;
       padding: 6px;
       border-radius: 40%;
+    }
+    
+    
+    .linkedin-button{
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      color: #EBEBEB;
+      width: 13px;
+      height: 13px;
+      transform: translate(10px, 76px);
+      background-color: #EBEBEB;
     }
     
     .ani{
