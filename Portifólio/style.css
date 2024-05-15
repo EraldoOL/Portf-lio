@@ -16,12 +16,12 @@ body,html{
   width: 100vw;
   height: 100vh;
   min-height: 540px;
-  background-image: linear-gradient(to left, #EBEBEB 65%, #100D1E 50%);
+  background-image: linear-gradient(to top, #EBEBEB 90%, #100D1E 60%);
 }
 
 header{
   text-align: center;
-  background-image: linear-gradient(to left, #EBEBEB 65%, #100D1E 50%);
+  background-image: linear-gradient(to top, #EBEBEB 83%, #100D1E 50%);
   height: 100%;
   width: 100vw;
   overflow-y: hidden;
@@ -32,13 +32,13 @@ header{
 header  #img{
   width: 250px;
   border-radius: 50%;
-  transform: translate(-240px , -515px )
+  transform: translate(-0px , -515px )
 }
 
 header h1{
   width: 412px;
   margin: auto;
-  transform: translate(200px , -80px);
+  transform: translate(10px , 190px);
   color: #100D1E;
   position: relative;
   white-space: nowrap;
@@ -127,7 +127,7 @@ header h1{
   background-color: #100D1E;
   border-radius: 50%;
   margin: auto;
-  transform: translate(-240px , 140px);
+  transform: translate(-0px , 140px);
 }
 /*#EBEBEB*/
 #white{
@@ -136,7 +136,7 @@ header h1{
   background-color: #EBEBEB;
   border-radius: 50%;
   margin: auto;
-  transform: translate(-240px , -250.5px);
+  transform: translate(-0px , -250.5px);
 }
 
  #section{
@@ -334,7 +334,7 @@ button a{
   color: #fff;
   width: 13px;
   height: 13px;
-  transform: translate(370.5px, 180px);
+  transform: translate(10px, 447.5px);
   
 }
 
@@ -357,7 +357,7 @@ button a{
   color: #fff;
   width: 13px;
   height: 13px;
-  transform: translate(440.5px, 113px)
+  transform: translate(100px, 380px)
 }
 
 .but img{
@@ -366,6 +366,25 @@ button a{
   padding: 6px;
   border-radius: 40%;
 }
+
+
+    .linkedin-button{
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      color: #EBEBEB;
+      width: 13px;
+      height: 13px;
+      transform: translate(10px, 380px);
+      background-color: #EBEBEB;
+      
+    }
 
 /*.linktree-button{
   display: inline-block;
