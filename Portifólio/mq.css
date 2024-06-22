@@ -10,7 +10,7 @@
 }
   
    body,html{
-     background-image: linear-gradient(to top, #EBEBEB 90.3%, #100D1E 60%);
+     background-image: linear-gradient(to top, #EBEBEB 91.5%, #100D1E 60%);
    }
    
    img{
@@ -216,7 +216,7 @@
       overscroll-behavior-x: contain;
       scroll-snap-type: x mandatory;
       scrollbar-width: none;
-      height: 310px;
+      height: 200px;
     }
     
     .carrosel::-webkit-scrollbar{
@@ -226,8 +226,8 @@
     .card{
       scroll-snap-align: start;
       border-radius: 30px;
-      min-height: 100px;
-      min-width: 260px;
+      min-height: 50px;
+      min-width: 200px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -237,32 +237,32 @@
     
     #card1 img{
       border-radius: 30px;
-      width: 280px;
+      width: 200px;
       padding: 20px 20px;
     }
     
     #card2 img{
       border-radius: 30px;
-      width: 280px;
+      width: 200px;
       padding: 20px 20px;
     }
     
     #card3 img{
       border-radius: 30px;
-      width: 280px;
+      width: 200px;
       padding: 20px 20px;
     }
     
     #card4 img{
       border-radius: 30px;
-      width: 280px;
+      width: 200px;
       padding: 0px 20px;
       
     }
     
     .card:hover{
       -webkit-transform: scale(1.1);
-       transform: scale(1.1);
+       transform: scale(1.5);
        transition: .5s;
     }
     
@@ -532,8 +532,9 @@
       text-align: center;
     }
     footer img{
-      width: 11.5px;
+      width: 18px;
       margin: auto;
+      
     }
     #contatosFooter {
       display: flex;
@@ -544,7 +545,64 @@
     #contatosFooter button{
       margin: 10px;
       border-radius: 10px;
-      padding: 7px 9px;
+      padding: 5px 5px;
       background: black;
+      
     }
   }
+  
+#container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border: .5px solid gray;
+}
+
+#h1form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+}
+
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+#container button:hover {
+    background-color: #0056b3;
+}
+
+#status {
+    margin-top: 10px;
+    color: red;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
